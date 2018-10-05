@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+  <title>NVJS_Filter</title>
+  <link rel="shortcut icon" href="./dist/images/favicon/favicon.ico">
+  <link href="./dist/css/main.css" rel="stylesheet">
+</head>
+ 
+<body>
+
+
+
+
+  <ul class="some__buttons_block">
+    <li class="filter__button button dark_light_btn" data-filter="all">show all</li>
+    <li class="filter__button button dark_light_btn" data-filter="filter_1">use filter_1</li>
+    <li class="filter__button button dark_light_btn" data-filter="filter_2">use filter_2</li>
+    <li class="filter__button button dark_light_btn" data-filter="filter_3">use filter_3</li>
+  </ul>
+
+  <div class="some__container">
+    <div class="filter__container" data-tags="">without filter</div>
+    <div class="filter__container" data-tags="filter_1">just filter 1</div>
+    <div class="filter__container" data-tags="filter_2">just filter 2</div>
+    <div class="filter__container" data-tags="filter_3">just filter 3</div>
+    <div class="filter__container" data-tags="filter_1 filter_2">filter 1 and filter 2</div>
+    <div class="filter__container" data-tags="filter_1 filter_3">filter 1 and filter 3</div>
+    <div class="filter__container" data-tags="filter_2 filter_3">filter 2 and filter 3</div>
+    <div class="filter__container" data-tags="filter_1 filter_2 filter_3">filter 1, filter_2 and filter 3</div>
+  </div>
+
+
+  <script src="./dist/js/NVJS_Filter.js"></script>
+
+  <script>
+    new NVJSFilter({
+      filterButtons: '.filter__button',
+      filterButtonActiveClass: 'dark_btn',
+      filterBlocks: '.filter__container',
+      filterBlockActiveClass: 'hidden',
+      autoSetFirstFilter: 'false'
+    });
+  </script>
+</body>
+
+</html>

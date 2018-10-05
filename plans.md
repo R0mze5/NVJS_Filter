@@ -1,0 +1,1 @@
+- add ability to use array of filters- add disabled delect

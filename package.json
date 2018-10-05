@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "test": "echo 1",
+    "dev": "gulp dev --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:clean": "gulp dev:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:build": "gulp dev:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:build:pages": "gulp dev:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:build:css": "gulp dev:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:build:es": "gulp dev:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dev:build:images": "gulp dev:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist": "gulp dist --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:clean": "gulp dist:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build": "gulp dist:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build:clean": "gulp dist:build:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build:pages": "gulp dist:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build:css": "gulp dist:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build:es": "gulp dist:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "dist:build:images": "gulp dist:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile": "gulp compile --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build": "gulp compile:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:clean": "gulp compile:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build:clean": "gulp compile:build:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build:pages": "gulp compile:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build:css": "gulp compile:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build:es": "gulp compile:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter",
+    "compile:build:images": "gulp compile:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Filter"
+  },
+  "name": "nvjs_filter",
+  "description": "NVJS_Filter - is the free and responsive script, which allow filter content",
+  "version": "1.0.0",
+  "main": "gulpConfig.js",
+  "keywords": [
+    "js Filter"
+  ],
+  "author": "Roman.Kh@pm.me",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R0mze5/NVJS_Filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/R0mze5/NVJS_Filter/issues"
+  },
+  "homepage": "https://github.com/R0mze5/NVJS_Filter#readme"
+}
